@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+	<head>
+		<meta charset="utf-8"/>
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>个人书架</title>
+		<link rel="stylesheet" href="./css/style.css">
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<script type="text/javascript" src="./js/jquery-1.12.3.min.js"></script>
+		<script type="text/javascript" src="./js/special.js"></script>
+		<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	</head>
+	<body>
+	
+		<div>
+			<img src="./images/banner/banner.png" alt="" class="img-rounded img-content">
+		</div>
+
+		<div>
+			<nav class="navbar navbar-default navbar-inverse col-md-10 col-md-offset-1 nav-color"> <!-- navbar-inverse --> <!-- navbar-fixed-top -->
+			  <div class="container-fluid">
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span> <!-- onclick="changeType(this)" -->
+			      </button>
+			      <a class="navbar-brand glyphicon glyphicon-home" href="./index.html"></a><a class="navbar-brand" href="./home.html">&nbsp;首页&nbsp;</a>
+			    </div>
+
+			    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			      <ul class="nav navbar-nav">
+			      </ul>
+			      <ul class="nav navbar-nav navbar-right">
+			        <li class=""><a href="./diary.html" class="glyphicon glyphicon-file">&nbsp;日志&nbsp; <!-- <span class="sr-only">(current)</span> --></a></li>
+			        <li><a href="./resume.html" class="glyphicon glyphicon-list-alt">&nbsp;简历&nbsp;</a></li>
+			        <li><a href="./bookstack.html" class="glyphicon glyphicon-book">&nbsp;书架&nbsp;</a></li>
+			        <li><a href="#" class="glyphicon glyphicon-music">&nbsp;音乐&nbsp;</a></li>
+			        <li><a href="#" class="glyphicon glyphicon-picture">&nbsp;相册&nbsp;</a></li>
+			        <li><a href="mailto:1939618870@qq.com" class="glyphicon glyphicon-envelope">&nbsp;联系方式&nbsp;</a></li>
+			        <li><a href="#" onclick="changeType(this)" status="1" class="glyphicon glyphicon-gift">&nbsp;更换风格&nbsp;</a></li>
+			      </ul>
+			    </div>
+			  </div>
+			</nav>
+		</div>
+
+		<div class="col-md-10 col-md-offset-1 container-fluid content-top" style="height:300px;">
+		</div>
+
+	</body>
+</html>
