@@ -1,0 +1,58 @@
+body,div,ul,li,p,a,i,span,img,nav,h1,h2,h3,b{
+	padding:0;
+	margin:0;
+}
+body{
+	background:url(../images/background/background.jpg);
+	/*padding-top:75px;*/
+}
+.images_top{
+	height:300px;
+}
+.content-color{
+	background:url(../images/content/1.jpg);/*70CAFF*/
+	background-size:100%;
+}
+.content-background{
+	background:url(../images/content/14.jpg);/*70CAFF*/
+	background-size:100%;
+}
+.content-color .tab-pane{
+	margin-top:20px;
+	margin-bottom:20px;
+} 
+.img-size{
+	width:100px;
+}
+.img-content{
+	height:200px;
+	width:100%;
+}
+.content-img{
+	background:url(../images/content/4.jpg);
+}
+.btn-width{
+	width:100%;
+}
+.body-img{
+	background:url(../images/content/6.jpg) no-repeat;
+	background-size:100%;
+}
+.jumu-al{
+	background:rgba(224,221,211, 0.5) none repeat scroll 0 0 !important;
+}
+.img-content-size{
+	text-align:center;
+	overflow:hidden;
+}
+h6{
+    font-style: italic;
+    font-size: 13px;
+    font: inherit;
+    letter-spacing: 1px;
+    color: #787878;
+    vertical-align: baseline;
+}
+.content-diary{
+	background:url(../images/diary/banner.jpg);
+}
